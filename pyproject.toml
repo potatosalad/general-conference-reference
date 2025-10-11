@@ -1,3 +1,46 @@
+[project]
+name = "general-conference-reference"
+version = "0.1.0"
+description = "Generate reference material from General Conference."
+authors = [{ name = "Andrew Bennett", email = "potatosaladx@gmail.com" }]
+requires-python = ">=3.13"
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = [
+    "click (>=8.2.1,<9.0.0)",
+    "jinja2 (>=3.1.6,<4.0.0)",
+    "openai (>=2.3.0,<3.0.0)",
+    "pyyaml (>=6.0.2,<7.0.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "jsonschema (>=4.25.0,<5.0.0)",
+]
+
+[project.scripts]
+general_conference_reference = "general_conference_reference.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "black>=25.9.0,<26",
+    "pytest>=8.4.2,<9",
+]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/general_conference_reference"]
+
+[tool.hatch.build.targets.wheel]
+include = ["src/general_conference_reference"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src/general_conference_reference" = "general_conference_reference"
+
 [tool.black]
 line-length = 132
-target-version = ['py310']
+target-version = ['py313']
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
