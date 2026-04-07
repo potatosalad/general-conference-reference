@@ -9,8 +9,8 @@ See https://tinyurl.com/f7gc102023 for an example output.
 Dependencies:
 
 ```bash
-brew install curl gsed htmlq pandoc
-uv install
+brew install pandoc
+uv sync
 ```
 
 Formatting:
@@ -22,7 +22,20 @@ just format
 Running:
 
 ```bash
-uv venv
-source .venv/bin/activate
-general_conference_reference .
+uv run general_conference_reference .
+```
+
+Examples:
+
+```bash
+# Stop after talk outlines
+uv run general_conference_reference . --year 2025 --month 10 --until-step 4
+
+# Regenerate outputs with bounded AI concurrency and explicit models
+uv run general_conference_reference . \
+  --concurrency 4 \
+  --force \
+  --outline-model gpt-5.4 \
+  --themes-model gpt-5 \
+  --key-principles-model gpt-5
 ```

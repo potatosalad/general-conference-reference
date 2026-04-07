@@ -23,4 +23,3 @@ COPY ./justfiles/python.just ./justfiles/python.just
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 RUN just setup-python
-ENV POETRY_VIRTUALENVS_IN_PROJECT=true
