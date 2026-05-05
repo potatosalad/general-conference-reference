@@ -1,3 +1,4 @@
+import asyncio
 from pathlib import Path
 
 from openai import AsyncOpenAI
@@ -11,9 +12,11 @@ from general_conference_reference.gcon import (
     ResponseRequestSettings,
     Talk,
     ThemesResponse,
+    autolink_scripture_references,
     build_structured_response_request,
     cleanup_markdown,
     extract_talk_urls_from_html,
+    load_or_generate_structured_output,
     load_openai_api_key,
     parse_talk_html,
     render_key_principles_markdown,
@@ -61,7 +64,7 @@ Line three
 
 ### Scriptures and Gospel Principles
 
-- Mosiah 3:19
+- [Mosiah 3:19](https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/3?lang=eng&id=p19#p19)
 - Charity
 
 ### Questions to Ponder
@@ -69,6 +72,16 @@ Line three
 - What changed?
 - What comes next?
 """
+
+
+def test_autolink_scripture_references_handles_ranges_and_multiple_references() -> None:
+    text = "Matthew 4:18-22; Doctrine and Covenants 19:18–19; Doctrine and Covenants 88:6, 13"
+
+    assert autolink_scripture_references(text) == (
+        "[Matthew 4:18-22](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/4?lang=eng&id=p18-p22#p18); "
+        "[Doctrine and Covenants 19:18–19](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/19?lang=eng&id=p18-p19#p18); "
+        "[Doctrine and Covenants 88:6, 13](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng&id=p6,p13#p6)"
+    )
 
 
 def test_render_themes_markdown_preserves_expected_sections() -> None:
@@ -111,6 +124,44 @@ def test_render_key_principles_markdown_sorts_by_index() -> None:
 1. *First - Speaker One:* First principle.
 2. *Second - Speaker Two:* Second principle.
 """
+
+
+def test_load_or_generate_structured_output_refreshes_cached_markdown(tmp_path: Path) -> None:
+    outline = OutlineResponse(
+        summary="One sentence.",
+        haiku="Line one\nLine two\nLine three",
+        key_points=["Point one", "Point two", "Point three"],
+        scriptures_and_gospel_principles=["Matthew 4:18-22"],
+        questions_to_ponder=["What changed?"],
+    )
+    data_file = tmp_path / "outline.json"
+    data_file.write_text(outline.model_dump_json(indent=2), encoding="utf-8")
+    markdown_file = tmp_path / "outline.md"
+    markdown_file.write_text("stale markdown\n", encoding="utf-8")
+
+    asyncio.run(
+        load_or_generate_structured_output(
+            client=AsyncOpenAI(api_key="test"),
+            config=GeneralConference(
+                output_path=tmp_path,
+                year="2025",
+                month="04",
+                language="eng",
+                client=AsyncOpenAI(api_key="test"),
+            ).config,
+            data_file=data_file,
+            markdown_file=markdown_file,
+            model="gpt-5",
+            instructions="unused",
+            input_text="unused",
+            text_format=OutlineResponse,
+            request_settings=ResponseRequestSettings(),
+            render_markdown=render_outline_markdown,
+            operation="outline test",
+        )
+    )
+
+    assert markdown_file.read_text(encoding="utf-8") == render_outline_markdown(outline)
 
 
 def test_apply_key_principles_assigns_entries_by_index(tmp_path: Path) -> None:

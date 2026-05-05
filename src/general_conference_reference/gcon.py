@@ -166,6 +166,12 @@ class PipelineConfig:
     retry_jitter_ratio: float = 0.25
 
 
+@dataclass(frozen=True)
+class ScriptureBook:
+    collection: str
+    slug: str
+
+
 Command = Sequence[str | Path]
 ModelT = TypeVar("ModelT", bound=BaseModel)
 ResponseT = TypeVar("ResponseT")
@@ -218,6 +224,220 @@ def write_text(path: Path, text: str) -> None:
 
 def normalize_text(text: str) -> str:
     return text.replace("\xa0", " ").strip()
+
+
+def normalize_scripture_book_key(book: str) -> str:
+    normalized = normalize_text(book).casefold()
+    normalized = normalized.replace("’", "'")
+    normalized = normalized.replace(".", "")
+    normalized = re.sub(r"\s*&\s*", " and ", normalized)
+    normalized = re.sub(r"[-–—]", "-", normalized)
+    normalized = re.sub(r"\s+", " ", normalized)
+    return normalized.strip()
+
+
+def build_scripture_book_aliases() -> dict[str, ScriptureBook]:
+    aliases: dict[str, ScriptureBook] = {}
+
+    def register(collection: str, slug: str, *names: str) -> None:
+        book = ScriptureBook(collection=collection, slug=slug)
+        for name in names:
+            aliases[normalize_scripture_book_key(name)] = book
+
+    old_testament_books = [
+        ("gen", "Genesis"),
+        ("ex", "Exodus"),
+        ("lev", "Leviticus"),
+        ("num", "Numbers"),
+        ("deut", "Deuteronomy"),
+        ("josh", "Joshua"),
+        ("judg", "Judges"),
+        ("ruth", "Ruth"),
+        ("1-sam", "1 Samuel"),
+        ("2-sam", "2 Samuel"),
+        ("1-kgs", "1 Kings"),
+        ("2-kgs", "2 Kings"),
+        ("1-chr", "1 Chronicles"),
+        ("2-chr", "2 Chronicles"),
+        ("ezra", "Ezra"),
+        ("neh", "Nehemiah"),
+        ("esth", "Esther"),
+        ("job", "Job"),
+        ("ps", "Psalm", "Psalms"),
+        ("prov", "Proverb", "Proverbs"),
+        ("eccl", "Ecclesiastes"),
+        ("song", "Song of Solomon", "Song of Songs"),
+        ("isa", "Isaiah"),
+        ("jer", "Jeremiah"),
+        ("lam", "Lamentations"),
+        ("ezek", "Ezekiel"),
+        ("dan", "Daniel"),
+        ("hosea", "Hosea"),
+        ("joel", "Joel"),
+        ("amos", "Amos"),
+        ("obad", "Obadiah"),
+        ("jonah", "Jonah"),
+        ("micah", "Micah"),
+        ("nahum", "Nahum"),
+        ("hab", "Habakkuk"),
+        ("zeph", "Zephaniah"),
+        ("hagg", "Haggai"),
+        ("zech", "Zechariah"),
+        ("mal", "Malachi"),
+    ]
+    for slug, *names in old_testament_books:
+        register("ot", slug, *names)
+
+    new_testament_books = [
+        ("matt", "Matthew"),
+        ("mark", "Mark"),
+        ("luke", "Luke"),
+        ("john", "John"),
+        ("acts", "Acts"),
+        ("rom", "Romans"),
+        ("1-cor", "1 Corinthians"),
+        ("2-cor", "2 Corinthians"),
+        ("gal", "Galatians"),
+        ("eph", "Ephesians"),
+        ("philip", "Philippians"),
+        ("col", "Colossians"),
+        ("1-thes", "1 Thessalonians"),
+        ("2-thes", "2 Thessalonians"),
+        ("1-tim", "1 Timothy"),
+        ("2-tim", "2 Timothy"),
+        ("titus", "Titus"),
+        ("philem", "Philemon"),
+        ("heb", "Hebrews"),
+        ("james", "James"),
+        ("1-pet", "1 Peter"),
+        ("2-pet", "2 Peter"),
+        ("1-jn", "1 John"),
+        ("2-jn", "2 John"),
+        ("3-jn", "3 John"),
+        ("jude", "Jude"),
+        ("rev", "Revelation"),
+    ]
+    for slug, *names in new_testament_books:
+        register("nt", slug, *names)
+
+    book_of_mormon_books = [
+        ("1-ne", "1 Nephi"),
+        ("2-ne", "2 Nephi"),
+        ("jacob", "Jacob"),
+        ("enos", "Enos"),
+        ("jarom", "Jarom"),
+        ("omni", "Omni"),
+        ("w-of-m", "Words of Mormon"),
+        ("mosiah", "Mosiah"),
+        ("alma", "Alma"),
+        ("hel", "Helaman"),
+        ("3-ne", "3 Nephi"),
+        ("4-ne", "4 Nephi"),
+        ("morm", "Mormon"),
+        ("ether", "Ether"),
+        ("moro", "Moroni"),
+    ]
+    for slug, *names in book_of_mormon_books:
+        register("bofm", slug, *names)
+
+    register("dc-testament", "dc", "Doctrine and Covenants", "Doctrine & Covenants", "D&C", "D and C")
+    register("pgp", "moses", "Moses")
+    register("pgp", "abr", "Abraham")
+    register("pgp", "js-m", "Joseph Smith-Matthew", "Joseph Smith—Matthew", "JS-M", "JS—M")
+    register("pgp", "js-h", "Joseph Smith-History", "Joseph Smith—History", "JS-H", "JS—H")
+    register("pgp", "a-of-f", "Articles of Faith", "Article of Faith", "A of F")
+
+    return aliases
+
+
+def alias_to_scripture_book_pattern(alias: str) -> str:
+    pieces: list[str] = []
+    for char in alias:
+        if char.isspace():
+            pieces.append(r"\s+")
+        elif char == "-":
+            pieces.append(r"[-–—]")
+        elif char == "'":
+            pieces.append(r"[’']")
+        else:
+            pieces.append(re.escape(char))
+    return "".join(pieces)
+
+
+SCRIPTURE_BOOK_ALIASES = build_scripture_book_aliases()
+SCRIPTURE_BOOK_PATTERN = "|".join(
+    alias_to_scripture_book_pattern(alias) for alias in sorted(SCRIPTURE_BOOK_ALIASES, key=lambda alias: (-len(alias), alias))
+)
+SCRIPTURE_VERSE_PATTERN = r"\d+(?:\s*[-–—]\s*\d+)?(?:\s*,\s*\d+(?:\s*[-–—]\s*\d+)?)*"
+SCRIPTURE_REFERENCE_PATTERN = re.compile(
+    rf"(?<![\w/])(?P<book>{SCRIPTURE_BOOK_PATTERN})\s+(?P<chapter>\d+)(?::(?P<verses>{SCRIPTURE_VERSE_PATTERN}))?",
+    flags=re.IGNORECASE,
+)
+
+
+def build_scripture_reference_url(
+    book_text: str,
+    chapter_text: str,
+    verses_text: str | None,
+    *,
+    language: str = "eng",
+) -> str | None:
+    book = SCRIPTURE_BOOK_ALIASES.get(normalize_scripture_book_key(book_text))
+    if book is None:
+        return None
+
+    try:
+        chapter = str(int(chapter_text))
+    except ValueError:
+        return None
+
+    url = f"{CHURCH_BASE_URL}/study/scriptures/{book.collection}/{book.slug}/{chapter}?lang={language}"
+    if not verses_text:
+        return url
+
+    verse_ids: list[str] = []
+    anchor: str | None = None
+    for verse_part in verses_text.split(","):
+        normalized_part = re.sub(r"\s+", "", verse_part.replace("–", "-").replace("—", "-"))
+        if not normalized_part:
+            return None
+        if "-" in normalized_part:
+            start_text, end_text = normalized_part.split("-", 1)
+            try:
+                start = str(int(start_text))
+                end = str(int(end_text))
+            except ValueError:
+                return None
+            verse_ids.append(f"p{start}-p{end}")
+            if anchor is None:
+                anchor = start
+            continue
+        try:
+            verse = str(int(normalized_part))
+        except ValueError:
+            return None
+        verse_ids.append(f"p{verse}")
+        if anchor is None:
+            anchor = verse
+
+    if not verse_ids or anchor is None:
+        return None
+    return f"{url}&id={','.join(verse_ids)}#p{anchor}"
+
+
+def autolink_scripture_references(text: str, *, language: str = "eng") -> str:
+    def replace(match: re.Match[str]) -> str:
+        reference_url = build_scripture_reference_url(
+            match.group("book"),
+            match.group("chapter"),
+            match.group("verses"),
+            language=language,
+        )
+        if reference_url is None:
+            return match.group(0)
+        return f"[{match.group(0)}]({reference_url})"
+
+    return SCRIPTURE_REFERENCE_PATTERN.sub(replace, text)
 
 
 def fetch_url_text_sync(url: str, *, timeout: float = DEFAULT_HTTP_TIMEOUT_SECONDS) -> str:
@@ -467,9 +687,11 @@ async def load_or_generate_structured_output(
     if data_file.exists() and not config.force:
         logger.debug("Using cached structured data for %s from %s", operation, data_file)
         structured_output = load_model(data_file, text_format)
-        if not markdown_file.exists():
-            logger.info("Rebuilding missing markdown artifact for %s at %s", operation, markdown_file)
-            write_text(markdown_file, render_markdown(structured_output))
+        rendered_markdown = render_markdown(structured_output)
+        existing_markdown = markdown_file.read_text(encoding="utf-8") if markdown_file.exists() else None
+        if existing_markdown != rendered_markdown:
+            logger.info("Refreshing markdown artifact for %s at %s from cached structured data", operation, markdown_file)
+            write_text(markdown_file, rendered_markdown)
         return structured_output
 
     if markdown_file.exists() and not data_file.exists() and not config.force:
@@ -506,20 +728,23 @@ async def run_with_concurrency(
     await asyncio.gather(*(bounded_worker(item) for item in items))
 
 
-def render_outline_markdown(outline: OutlineResponse) -> str:
+def render_outline_markdown(outline: OutlineResponse, *, language: str = "eng") -> str:
     lines: list[str] = [
         "### Summary",
         "",
-        outline.summary.strip(),
+        autolink_scripture_references(outline.summary.strip(), language=language),
         "",
         "### Haiku",
         "",
-        outline.haiku.strip(),
+        autolink_scripture_references(outline.haiku.strip(), language=language),
         "",
         "### Key Points",
         "",
     ]
-    lines.extend(f"{index}. {point.strip()}" for index, point in enumerate(outline.key_points, start=1))
+    lines.extend(
+        f"{index}. {autolink_scripture_references(point.strip(), language=language)}"
+        for index, point in enumerate(outline.key_points, start=1)
+    )
     lines.extend(
         [
             "",
@@ -527,7 +752,9 @@ def render_outline_markdown(outline: OutlineResponse) -> str:
             "",
         ]
     )
-    lines.extend(f"- {item.strip()}" for item in outline.scriptures_and_gospel_principles)
+    lines.extend(
+        f"- {autolink_scripture_references(item.strip(), language=language)}" for item in outline.scriptures_and_gospel_principles
+    )
     lines.extend(
         [
             "",
@@ -535,31 +762,35 @@ def render_outline_markdown(outline: OutlineResponse) -> str:
             "",
         ]
     )
-    lines.extend(f"- {question.strip()}" for question in outline.questions_to_ponder)
+    lines.extend(
+        f"- {autolink_scripture_references(question.strip(), language=language)}" for question in outline.questions_to_ponder
+    )
     return "\n".join(lines).strip() + "\n"
 
 
-def render_themes_markdown(themes: ThemesResponse) -> str:
+def render_themes_markdown(themes: ThemesResponse, *, language: str = "eng") -> str:
     lines: list[str] = [
         "### Summary",
         "",
-        themes.summary.strip(),
+        autolink_scripture_references(themes.summary.strip(), language=language),
     ]
     if themes.repeated_doctrines:
         lines.append("")
-        lines.extend(f"- {item.strip()}" for item in themes.repeated_doctrines)
+        lines.extend(f"- {autolink_scripture_references(item.strip(), language=language)}" for item in themes.repeated_doctrines)
     lines.extend(
         [
             "",
             "### Haiku",
             "",
-            themes.haiku.strip(),
+            autolink_scripture_references(themes.haiku.strip(), language=language),
             "",
             "### Questions to Ponder",
             "",
         ]
     )
-    lines.extend(f"- {question.strip()}" for question in themes.questions_to_ponder)
+    lines.extend(
+        f"- {autolink_scripture_references(question.strip(), language=language)}" for question in themes.questions_to_ponder
+    )
     return "\n".join(lines).strip() + "\n"
 
 
@@ -567,19 +798,19 @@ def ordered_key_principles(key_principles: KeyPrinciplesResponse) -> list[KeyPri
     return sorted(key_principles.key_principles, key=lambda entry: entry.index)
 
 
-def render_key_principles_markdown(key_principles: KeyPrinciplesResponse) -> str:
+def render_key_principles_markdown(key_principles: KeyPrinciplesResponse, *, language: str = "eng") -> str:
     lines: list[str] = ["### Key Principles", ""]
     lines.extend(
-        f"{entry.index}. *{entry.title} - {entry.speaker}:* {entry.principle.strip()}"
+        f"{entry.index}. *{entry.title} - {entry.speaker}:* {autolink_scripture_references(entry.principle.strip(), language=language)}"
         for entry in ordered_key_principles(key_principles)
     )
     return "\n".join(lines).strip() + "\n"
 
 
-def render_key_principles_list_markdown(talks: Sequence["Talk"]) -> str:
+def render_key_principles_list_markdown(talks: Sequence["Talk"], *, language: str = "eng") -> str:
     lines: list[str] = ["### Key Principles", ""]
     lines.extend(
-        f"{talk_index}. {talk.aiprinciple.strip()} ([&ldquo;{talk.title}&rdquo; - {talk.author}]({talk.url}))"
+        f"{talk_index}. {autolink_scripture_references(talk.aiprinciple.strip(), language=language)} ([&ldquo;{talk.title}&rdquo; - {talk.author}]({talk.url}))"
         for talk_index, talk in enumerate(talks, start=1)
     )
     return "\n".join(lines).strip() + "\n"
@@ -712,7 +943,7 @@ class Talk:
             input_text=self.markdown_file.read_text(encoding="utf-8"),
             text_format=OutlineResponse,
             request_settings=self.parent.config.outline_request,
-            render_markdown=render_outline_markdown,
+            render_markdown=lambda response: render_outline_markdown(response, language=self.parent.language),
             operation=f"outline for talk {self.key}",
         )
         self.aisummary = outline.summary.strip()
@@ -841,7 +1072,7 @@ class GeneralConference:
             input_text=summaries_text,
             text_format=ThemesResponse,
             request_settings=self.config.themes_request,
-            render_markdown=render_themes_markdown,
+            render_markdown=lambda response: render_themes_markdown(response, language=self.language),
             operation=f"conference themes for {self.year}-{self.month}",
         )
 
@@ -855,14 +1086,14 @@ class GeneralConference:
             input_text=summaries_text,
             text_format=KeyPrinciplesResponse,
             request_settings=self.config.key_principles_request,
-            render_markdown=render_key_principles_markdown,
+            render_markdown=lambda response: render_key_principles_markdown(response, language=self.language),
             operation=f"key principles for {self.year}-{self.month}",
         )
         self.apply_key_principles(key_principles)
 
         key_principles_list_file = self.root_file("key_principles_list.md")
         if should_refresh(key_principles_list_file, force=self.config.force):
-            write_text(key_principles_list_file, render_key_principles_list_markdown(self.talks))
+            write_text(key_principles_list_file, render_key_principles_list_markdown(self.talks, language=self.language))
 
         if self.config.run_until_step < STEP8_WRITE_REFERENCE_MARKDOWN:
             return
