@@ -1,0 +1,61 @@
+# “Here Am I, Send Me”
+
+*President Susan H. Porter Primary General President*
+
+*Children all over the world are offering what they have to bring God’s love to their families, church, friends, and communities.*
+
+<div class="body-block">
+
+I am grateful today to speak to Heavenly Father’s young children. Heavenly Father’s older children may also choose to listen.
+
+Children, do you love to answer the question, “How old are you?” Are you 5, 8, or 11? That is how long you have lived on earth, but did you know that your spirit is much, much older? Although you don’t remember, you spent a long time in the spirit world learning and growing. On the day you were born, your body was new, but you had lived as a spirit for many years. You were born with gifts. You have a purpose. And you have the ability to make a difference for good.
+
+Heavenly Father loves His children so much that He wants each of us to receive all the blessings He enjoys. Before we came to earth, He shared with us His plan of happiness. As part of His plan, we would need to come to earth, gain a body, and choose to live His loving commandments. Then we could return to live with Him and our families in joy and peace.
+
+Heavenly Father knew that when we came to earth, we would make mistakes and would need help to return home to Him. Do you know who Heavenly Father chose to help us? Yes, Jesus! Jesus Christ had so much love for Heavenly Father and for us, He said, “Here am I, send me.”
+
+Heavenly Father sent Jesus to earth. He showed us how to live to be happy. He taught us how to love God and love others. In Gethsemane, Jesus Christ suffered the pain of all our sins and challenges. He died on the cross and then, in the greatest miracle of all, He was resurrected! That is what we celebrate today on Easter! Jesus, our Lord and Savior, won the battle over everything that is hard and unfair in our lives.
+
+Jesus Christ knows you, He understands you, and He loves you. Jesus has done everything to help you. Stay close to Him. Learn all you can about Him. As you try to keep the most important commandments to love God and love others, He will help you grow into the magnificent person you are meant to be! He will help you be happier, learn faster, feel comfort, make friends, and have more opportunities.
+
+Wake up each day with purpose and confidence, knowing that Jesus will walk with you. Follow His example and say in prayer to Heavenly Father, “Here am I, send me.” Then listen for thoughts and ideas. What will He send *you* to do? Through His Spirit, He may send you to comfort someone who is lonely, help your family, learn important lessons at school, or teach someone to pray. He can help *you* stand for truth so you can bring His light to others.
+
+<div>
+
+<div class="imageWrapper-wTPPD">
+
+<img src="https://www.churchofjesuschrist.org/imgs/wy00gtr4qgwncmoqco1y7pschbtpvf1t8v37xiav/full/%21500%2C/0/default" id="img_gaVDU" class="imageWithModal-ILaMF" data-aspect-ratio="0.7418397626112759" data-assetid="wy00gtr4qgwncmoqco1y7pschbtpvf1t8v37xiav" data-height="674" data-img-id="wy00gtr4qgwncmoqco1y7pschbtpvf1t8v37xiav" data-missing-asset="false" data-public-description="&quot;My Offering&quot; by Katie Payne. Illustration featuring the Savior with a basket of bread given to him by a child." data-public-title="&quot;My Offering&quot; by Katie Payne" data-width="500" loading="lazy" sizes="(max-width: 272px) 184px, (max-width: 639px) calc(100vw - 88px), (max-width: 735px) 552px, (min-width: 736px) 512px, 552px" srcset="https://www.churchofjesuschrist.org/imgs/wy00gtr4qgwncmoqco1y7pschbtpvf1t8v37xiav/full/%2160%2C/0/default 60w,https://www.churchofjesuschrist.org/imgs/wy00gtr4qgwncmoqco1y7pschbtpvf1t8v37xiav/full/%21100%2C/0/default 100w,https://www.churchofjesuschrist.org/imgs/wy00gtr4qgwncmoqco1y7pschbtpvf1t8v37xiav/full/%21200%2C/0/default 200w,https://www.churchofjesuschrist.org/imgs/wy00gtr4qgwncmoqco1y7pschbtpvf1t8v37xiav/full/%21250%2C/0/default 250w,https://www.churchofjesuschrist.org/imgs/wy00gtr4qgwncmoqco1y7pschbtpvf1t8v37xiav/full/%21320%2C/0/default 320w,https://www.churchofjesuschrist.org/imgs/wy00gtr4qgwncmoqco1y7pschbtpvf1t8v37xiav/full/%21500%2C/0/default 500w,https://www.churchofjesuschrist.org/imgs/wy00gtr4qgwncmoqco1y7pschbtpvf1t8v37xiav/full/%21640%2C/0/default 640w" width="500" height="674" alt="Boy with five loaves of bread and two fishes" />
+
+</div>
+
+</div>
+
+Do you remember learning about Jesus feeding more than 5,000 people? Jesus had been teaching people all day, and they were hungry. Somewhere in this large group there was a young boy who had five loaves of bread and two small fishes. He knew that this food could not feed very many people, but he decided to give Jesus what he had. Jesus took the food and thanked Heavenly Father for it. That food fed thousands of people!
+
+Just as the young boy did not have to figure out how a small amount of bread and fish could feed so many people, you do not need to worry about fixing all the problems around you. Heavenly Father can provide miracles when you simply offer what you have. When you say, “Here am I, send me,” Heavenly Father can take something small and simple and make it great!
+
+I have seen children all over the world who are offering what they have to bring God’s love to their families, church, friends, and communities. In the Caribbean, a mother told me that the Spirit lifted her heavy heart when her young son asked her to read the Book of Mormon with him. In Ghana, Primary children told me they share their lunch at school with others who don’t have any. In Cambodia, I saw sick children in a local hospital light up when they were given activity kits made by Primary children who cared about them.
+
+A few months ago, Chloe and Eli, both 10, stood before a group of business leaders and spoke confidently about how their faith affects their everyday life. They shared that they think about the gospel every day. They pray for others and look for ways to help. Chloe and Eli taught adults what it means to be disciples of Jesus Christ.
+
+Recently, during a fast and testimony meeting, I saw a Primary boy walk to the stand and ask, “Would everyone who loves Jesus please raise your hands?” At that moment, every person looked up, smiled, and raised their hands. All thoughts were on our Savior, Jesus Christ. It was a sacred moment of joy!
+
+When I was young, my mother often made a special dessert for Sunday. After dinner she’d ask, “Do you want dessert now or later?” We children knew my dad would always answer with a big smile, “I want some now *and* later!”
+
+When you strive to bring yourself and others closer to Jesus, you will receive blessings now *and* later. Today you can make choices that will help you change and grow now and prepare you for blessings of love and joy forever.
+
+<div>
+
+<div class="imageWrapper-wTPPD">
+
+<img src="https://www.churchofjesuschrist.org/imgs/kjzwwjp6y8w41xc7mi9kr7ut13hnsbobty64lxkx/full/%21500%2C/0/default" id="img_qf9x1" class="imageWithModal-ILaMF" data-assetid="kjzwwjp6y8w41xc7mi9kr7ut13hnsbobty64lxkx" data-img-id="kjzwwjp6y8w41xc7mi9kr7ut13hnsbobty64lxkx" data-missing-asset="false" data-public-description="The resurrected Savior, Jesus Christ, invites the little children to come unto Him so that he might bless them." data-public-title="Jesus Stood in the Midst (Christ and the Nephite Children)" data-width="500" loading="lazy" sizes="(max-width: 272px) 184px, (max-width: 639px) calc(100vw - 88px), (max-width: 735px) 552px, (min-width: 736px) 512px, 552px" srcset="https://www.churchofjesuschrist.org/imgs/kjzwwjp6y8w41xc7mi9kr7ut13hnsbobty64lxkx/full/%2160%2C/0/default 60w,https://www.churchofjesuschrist.org/imgs/kjzwwjp6y8w41xc7mi9kr7ut13hnsbobty64lxkx/full/%21100%2C/0/default 100w,https://www.churchofjesuschrist.org/imgs/kjzwwjp6y8w41xc7mi9kr7ut13hnsbobty64lxkx/full/%21200%2C/0/default 200w,https://www.churchofjesuschrist.org/imgs/kjzwwjp6y8w41xc7mi9kr7ut13hnsbobty64lxkx/full/%21250%2C/0/default 250w,https://www.churchofjesuschrist.org/imgs/kjzwwjp6y8w41xc7mi9kr7ut13hnsbobty64lxkx/full/%21320%2C/0/default 320w,https://www.churchofjesuschrist.org/imgs/kjzwwjp6y8w41xc7mi9kr7ut13hnsbobty64lxkx/full/%21500%2C/0/default 500w,https://www.churchofjesuschrist.org/imgs/kjzwwjp6y8w41xc7mi9kr7ut13hnsbobty64lxkx/full/%21640%2C/0/default 640w" width="500" height="9" alt="Jesus Christ with children" />
+
+</div>
+
+</div>
+
+I invite you to pray to Heavenly Father and say, like Jesus did, “Here am I, send me.” And then move forward, walking with Him to bring yourself and others to Christ. “\[You\] are cov’nant children with a gift to give.”
+
+I bear my witness that God, our Heavenly Father, and His Son, Jesus Christ, love you. Because of Heavenly Father’s plan and Jesus Christ’s Atonement, all of us can receive the blessing of living joyfully forever with our families in Their presence. I love Them and I love you. In the sacred name of Jesus Christ, amen.
+
+</div>

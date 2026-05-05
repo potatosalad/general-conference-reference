@@ -1,0 +1,55 @@
+# I Feel My Savior’s Love
+
+*Elder Pedro X. Larreal Of the Seventy*
+
+*It is my prayer that each of us will feel our Savior’s love as we partake of the sacrament.*
+
+<div class="body-block">
+
+My dear brothers and sisters, do you know how much the Savior loves you? If you do not know or have never thought about it before, I hope by the end of this message you will know how to find the answer to this question.
+
+A few weeks ago, at a devotional for students at Brigham Young University, our prophet, President Dallin H. Oaks, began his talk by sharing this thought: “I feel to emphasize the warning President Russell M. Nelson issued us: that ‘in coming days, it will not be possible to survive spiritually without the guiding, directing, comforting, and constant influence of the Holy Ghost.’ One of the many reasons you will need the constant influence of the Holy Ghost is that you live in a season in which the adversary has become so effective at disguising truth that if you don’t have the Holy Ghost, you will be deceived.”
+
+We can renew that influence of the Holy Ghost each week by personally preparing to partake of the sacrament.
+
+The resurrected Lord emphasized the importance of the sacrament when He visited the Americas and instituted this ordinance among the faithful Nephites and Lamanites. He blessed the emblems of the sacrament. He gave them to His disciples and then the multitude, and at the same time, He commanded them, saying: “And this shall ye always do to those who repent and are baptized in my name; and ye shall do it in remembrance of my blood, which I have shed for you, that ye may witness unto the Father that ye do always remember me. And if ye do always remember me ye shall have my Spirit to be with you.”
+
+The sacrament is the ordinance that replaces the sacrifices of blood and burnt offerings of the Mosaic law. As we partake of this ordinance, we can receive the promise given by the Savior. In <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/9?lang=eng&amp;id=p20#p20" class="scripture-ref">3 Nephi 9:20</a> we read, “And whoso cometh unto me with a broken heart and a contrite spirit, him will I baptize with fire and with the Holy Ghost.”
+
+As we partake of this ordinance with a broken heart, the Lord promises us the blessing of having the companionship and constant guidance of the Holy Ghost.
+
+The sacrament represents the Atonement of Jesus Christ. During that sacred moment, when we give our full attention to Him and focus on His atoning sacrifice, how can we not feel His great love for us? How can we not feel important when we remember that He willingly volunteered to be the Advocate between us and the Father?
+
+<div>
+
+<div class="imageWrapper-wTPPD">
+
+<img src="https://www.churchofjesuschrist.org/imgs/qq45eg945645x4tx0p6g2pm4grf8z8shft0xwmmb/full/%21500%2C/0/default" id="img_qXLpG" class="imageWithModal-ILaMF" data-aspect-ratio="1.7793594306049823" data-assetid="qq45eg945645x4tx0p6g2pm4grf8z8shft0xwmmb" data-credit-line="Walter Rane, Courtesy Church History Museum" data-height="281" data-img-id="qq45eg945645x4tx0p6g2pm4grf8z8shft0xwmmb" data-missing-asset="false" data-public-description="Interior scene of the Last Supper.  Central figure, Jesus, wears a white robe with a cloth covering His head.  He holds a bowl in his right hand with is slightly raised.  To His left is a man in a red cap head turned and his hand covering his mouth.  In the shadows is a man in a dark robe and light head covering with his hand to his chin.  Next to him is a man with a curly dark hair with his hand to his chest.  Next to him is reclining man, older bearded with his hands to his chin.  Next to this figure are two men is shadow.  One with a dark beard sitting crossed legged with his hand in his lap;  the other barely visible.  Next is a man with a beard in a white robe, looking directly at Jesus.  The next man is lying on his stomach, wearing a white tunic with a blue over-robe.  He is bringing something to his mouth.  The next man has his back to the viewer, he has dark hair, a brown robe and a red shawl, he also wears a brown yarmulke.  Next is a man lying on his side in a green tunic with a blue sash.  He also wears a blue turban and lies on a striped blanket.  The next man has light hair and an off-white robe.  He reclines on his side and has an arm slightly raised.  The final man, is only visible in profile, wears a red robe.  He has dark hair and a beard.  Lower right corner reads, &quot; Walter Rane &#39;04&quot; in red." data-public-title="&quot;Peace I Leave with You&quot; (John 14:27)" data-width="500" loading="lazy" sizes="(max-width: 272px) 184px, (max-width: 639px) calc(100vw - 88px), (max-width: 735px) 552px, (min-width: 736px) 512px, 552px" srcset="https://www.churchofjesuschrist.org/imgs/qq45eg945645x4tx0p6g2pm4grf8z8shft0xwmmb/full/%2160%2C/0/default 60w,https://www.churchofjesuschrist.org/imgs/qq45eg945645x4tx0p6g2pm4grf8z8shft0xwmmb/full/%21100%2C/0/default 100w,https://www.churchofjesuschrist.org/imgs/qq45eg945645x4tx0p6g2pm4grf8z8shft0xwmmb/full/%21200%2C/0/default 200w,https://www.churchofjesuschrist.org/imgs/qq45eg945645x4tx0p6g2pm4grf8z8shft0xwmmb/full/%21250%2C/0/default 250w,https://www.churchofjesuschrist.org/imgs/qq45eg945645x4tx0p6g2pm4grf8z8shft0xwmmb/full/%21320%2C/0/default 320w,https://www.churchofjesuschrist.org/imgs/qq45eg945645x4tx0p6g2pm4grf8z8shft0xwmmb/full/%21500%2C/0/default 500w,https://www.churchofjesuschrist.org/imgs/qq45eg945645x4tx0p6g2pm4grf8z8shft0xwmmb/full/%21640%2C/0/default 640w" width="500" height="281" alt="The Last Supper" />
+
+</div>
+
+</div>
+
+In <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/luke/22?lang=eng&amp;id=p19-p20#p19" class="scripture-ref">Luke 22:19–20</a> we read:
+
+“And he took bread, and gave thanks, and brake it, and gave unto them, saying, This is my body which is given for you: \[do this\] in remembrance of me.
+
+“Likewise also the cup after supper, saying, This cup is the new testament in my blood, which is shed for you.”
+
+When Christ spoke these words found in Luke, He was focused on us; the sacrament was given for our benefit. Notice again what He says: “This is my body⁠ which is given for *you*.” And in the following verse, He says, “This cup is the new testament in my blood, which is shed for *you*.”
+
+Dear brothers and sisters, the Lord uses the pronoun *you* again and again to emphasize and remind us that the sacrament is for us—for you and for me!
+
+The ordinance of the sacrament makes sacrament meeting the most sacred and important meeting in the Church. During the sacrament, we should strive to remove every worldly thought from our minds. This is time to be prayerful and reverent, not a time for reading secular books or magazines, nor is it a time for checking our cell phones. This sacred time is to feel His love for us and remember Him, to know that we are never alone and that His Spirit will be with us to help us during trials and challenges.
+
+President Dallin H. Oaks taught, “By participating weekly and appropriately in the ordinance of the sacrament, we qualify for the promise that we will ‘always have his Spirit to be with \[us\]’ (<a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/20?lang=eng&amp;id=p77#p77" class="scripture-ref">D&amp;C 20:77</a>).”
+
+The gift of the Holy Ghost is the compass that leads us to make correct choices and sanctifies us from all sin.
+
+On this Easter Sunday, as we celebrate the Resurrection of Jesus Christ, I want to invite you, with all my strength and with all my love, to leave today determined to elevate your spiritual preparation and reverence as you partake of the sacrament. It is vital. As President Nelson said, it will not be possible to survive spiritually without the companionship of the Holy Ghost in these latter days.
+
+I know that Jesus Christ lives and He knows us. His arms are always outstretched and ready to help us. He loves us beyond what we can comprehend. It is my prayer that each of us will feel our Savior’s love as we partake of the sacrament and have the influence of the Holy Ghost in these days when the adversary does not rest.
+
+I testify of the sacred mantle of our prophet, President Dallin H. Oaks, as a prophet, seer, and revelator. In the sacred name of Jesus Christ, amen.
+
+</div>

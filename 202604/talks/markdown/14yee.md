@@ -1,0 +1,57 @@
+# Ministering—“That Ye Love One Another; as I Have Loved You”
+
+*Sister Kristin M. Yee Second Counselor in the Relief Society General Presidency*
+
+*Ministering is truly loving and caring for others as the Savior would. It is a way of being; it is the way of our Savior, Jesus Christ.*
+
+<div class="body-block">
+
+In my first general conference message, I briefly shared how the transformative power of the Savior’s Atonement changed my father.
+
+Today I would like to tell you a little more about how that change began. My father hit a very low point in his life when two ministering brothers began to visit him. One of them invited my father to come with him and his wife to the temple. He accepted the invitation. Each week they picked him up and drove to the next city to worship and serve in the house of the Lord. This continued for three years. Then my dad decided to become a temple worker.
+
+I remember seeing changes in my father during that time. He became aware and attentive to the needs of others. He took better care of his health. He began to care about His relationship with God and subsequently all the relationships in his life. The change was real. He now had the Spirit with him, and I felt it.
+
+Bless this ministering couple for helping my dad. They didn’t judge him for where he was in his life. They walked with him and helped him to develop his relationship with God. They are still my father’s closest and dearest friends.
+
+Because these humble and devoted disciples of the Savior quietly ministered to a seemingly lost and dejected man, my family and I have been eternally blessed.
+
+When we choose to minister in our inspired assignments and our daily interactions, we are helping to bless someone’s father, someone’s sister, someone’s son. When we minister, we are helping to answer each other’s prayers. We are the Savior’s hands. Oh, how I am grateful for all those who have blessed families like mine by ministering with compassion.
+
+I know the Lord is aware of you and your struggles as you strive to keep your covenants and minister to others. He has promised blessings and divine help for you and your family as you exercise your faith to serve Him.
+
+We may not be able to fix difficult or heartbreaking circumstances as we hope; some changes are not ours to make. But we *can* choose to love and minister as the Savior would.
+
+Ministering by the Spirit invites the Savior’s healing into our lives and the lives of those we minister to. I often find peace, clarity, healing, and purpose when I minister. I find the Savior when I minister. This is by divine design.
+
+Ministering is truly loving and caring for others as the Savior would. It is a way of being; it is the way of our Savior, Jesus Christ. It is not a program or a checklist; ministering is the essence of who God is and who we can become as we follow Him.
+
+We are not called to or released from ministering. It is part of fulfilling the covenants we made at baptism and in the temple. We covenanted to take upon us the Savior’s name—becoming as He is as we sacrifice and consecrate our lives to Him. When we minister as He would, we begin to think, feel, and love as He would.
+
+Our Father in Heaven carries out His eternal work by ministering to the individual needs of His children one by one. The Savior showed us this pattern often during His mortal ministry as He compassionately blessed, healed, and cared for “the one.” He invites us to do likewise—to minister in individual and personal ways, ways that help us to feel the love of God. When we feel loved and seen by Him, it changes everything. And when we bless the one, we bless the whole.
+
+The Savior shows us the ultimate individuality of God’s love through His atoning sacrifice and the divine capacity He has to heal and minister to you and me on an intimate level.
+
+Jesus Christ chose to suffer for our sins and to atone in indescribable agony that we might be saved and receive divine succor. All this He did without the assurance that we would love Him in return. “But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.”
+
+*This* is the kind of love He has for you and me. And *this* is the kind of love He desires us to have for each other: “A new commandment I give unto you, That ye love one another; as I have loved you.” We can demonstrate our love for Him by keeping His commandments and ministering to others while they and we are yet imperfect.
+
+We’ve been sent here to learn to love God and each other as the Savior did—to love in sacrificial and transformational ways, ways that will bring our greatest happiness. Through the Savior’s Atonement we can come to love in ways that may feel impossible. Elder Quentin L. Cook taught, “Our love of God and our fellow man is the ultimate test of the condition of our spirit.”
+
+Choosing to minister isn’t always convenient or comfortable. It requires sacrifice, faith, vulnerability, and trusting things will work out as we let God prevail. When we pause and choose to care for someone over something, His Spirit and love can enter in and we can receive the peace and perspective that we *really* need.
+
+A young sister shared that she often feels nervous about ministering because she doesn’t know how others will respond. I asked how she works through that. She smiled and said, “I go—and it usually turns out much better than I thought.” She exercises faith, and the Lord helps her.
+
+As we minister in faith, we do not go alone. The Lord will be with us. He will “provide \[the\] means whereby \[we\] can accomplish the thing which he has commanded”—including the blessing of God’s priesthood power as we keep our covenants and His priesthood authority to represent Him through our assignment. The Lord knows the hearts of those we minister to. He loves them and He loves you. He will help you to bless them in the ways they need.
+
+Think of the significance of our ministering assignments. Relief Society and elders quorum presidencies receive revelation from the Lord to extend inspired assignments to you and me—assignments to represent Him and labor with Him in caring for God’s children. As President Jeffrey R. Holland taught, we are invited to give “the God and Father of us all a helping hand with His staggering task of answering prayers, … drying tears, and strengthening feeble knees.”
+
+If you want to feel grounded, gain a sense of divine belonging, and make a real difference in the world, I invite you to follow the Savior and minister in His name. Never was the need greater than now for souls to be lifted, strengthened, and healed through the Atonement of Jesus Christ. “So many of us desperately need to feel of His love.” As His disciples, you and I have the covenant blessing and responsibility to bring the Savior’s love and relief to all of God’s children. When we offer His love and belonging to others, we will find it ourselves. The Savior promised, “Whosoever will lose his life for my sake shall find it.”
+
+The Savior did not limit His ministering to His family and close associations. He ministered to all and invites us to do the same. We receive ministering assignments to grow our capacity to love others and to ensure no one is forgotten. We pray for them, care for their needs, and strengthen their faith in Jesus Christ.
+
+I believe our Father in Heaven wants you to be happy. He loves you. His work, including ministering, is designed to bring you and me the greatest joy we can experience.
+
+I testify that ministering not only “brings forth the blessings of heaven,” it is the way of heaven. I testify that Jesus Christ lives. As we emulate His sacrifice by loving and ministering as He would, we will be blessed to find our own joy, healing, and relief in Him. We will become even as He is. In the name of Jesus Christ, amen.
+
+</div>

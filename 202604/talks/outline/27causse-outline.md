@@ -1,0 +1,34 @@
+### Summary
+
+Elder Gérald Caussé teaches that God and Jesus Christ love both all of humanity and each individual soul, and disciples show Christlike love by widening their circle while personally caring for the one.
+
+### Haiku
+
+Stars fill the dark sky
+Each soul known, loved, and lifted
+Christ’s love reaches all
+
+### Key Points
+
+1. God’s love is universal in scope and personal in detail—He loves all and each.
+2. Disciples of Christ should extend love beyond familiar circles to every neighbor, without exclusion.
+3. True Christlike love notices, serves, and helps transform individuals one soul at a time.
+
+### Scriptures and Gospel Principles
+
+- [Psalm 8:3–5](https://www.churchofjesuschrist.org/study/scriptures/ot/ps/8?lang=eng&id=p3-p5#p3) — God is mindful of mankind and crowns His children with glory and honor.
+- [Matthew 10:29–31](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/10?lang=eng&id=p29-p31#p29) — The Father notices every sparrow and knows each of His children intimately.
+- [Mosiah 27:30](https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/27?lang=eng&id=p30#p30) — The Lord remembers every creature and manifests Himself unto all.
+- [Matthew 5:46–47](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/5?lang=eng&id=p46-p47#p46) — Christ commands love beyond only those who already love us.
+- The Atonement of Jesus Christ as both universal for all and personal for each individual.
+- Ministering and Church service as ways to expand our circle of Christlike love.
+- Joseph Smith’s teaching that one filled with the love of God seeks to bless the whole human race.
+- Elder Neal A. Maxwell’s teaching: “God is in the details!”
+
+### Questions to Ponder
+
+- How have you felt God’s love for you personally, not just generally?
+- Who might be outside your current circle of love that the Lord wants you to notice?
+- How can service help us come to love people we do not yet know well?
+- What does it mean to love “all” while still caring deeply for “each”?
+- When have you seen Christlike love help someone recognize their divine worth?

@@ -1,0 +1,36 @@
+### Summary
+
+Elder Ronald A. Rasband testifies that Jesus Christ’s Resurrection is central to God’s plan, conquers physical death for all, and brings hope of joyful, perfected reunions through Him.
+
+### Haiku
+
+Empty garden tomb
+Hands once pierced now reach for us
+Morning joy will come
+
+### Key Points
+
+1. Jesus Christ’s death, burial, and Resurrection are the fundamental center of restored gospel doctrine.
+2. Because Christ rose again, every person will be resurrected and overcome physical death.
+3. The risen Savior personally reaches out with healing, comfort, and hope, especially in grief and loss.
+
+### Scriptures and Gospel Principles
+
+- [Luke 24:6](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/24?lang=eng&id=p6#p6) — “He is not here, but is risen.”
+- [John 11:25](https://www.churchofjesuschrist.org/study/scriptures/nt/john/11?lang=eng&id=p25#p25) — Jesus Christ as “the resurrection, and the life.”
+- [John 14:19](https://www.churchofjesuschrist.org/study/scriptures/nt/john/14?lang=eng&id=p19#p19) — “Because I live, ye shall live also.”
+- [3 Nephi 11](https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/11?lang=eng) — The resurrected Christ appears to the people at Bountiful.
+- [Alma 11:43–44](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/11?lang=eng&id=p43-p44#p43) — The spirit and body will be reunited in perfect form.
+- [Isaiah 41:10](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/41?lang=eng&id=p10#p10) — The Lord upholds us with the right hand of His righteousness.
+- [Isaiah 49:16](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/49?lang=eng&id=p16#p16) — “I have graven thee upon the palms of my hands.”
+- President Dallin H. Oaks’s teaching that the Resurrection gives meaning, motivation, and hope.
+- The doctrine of universal resurrection through the Atonement of Jesus Christ.
+- Hope, healing, and eternal family reunion through Jesus Christ.
+
+### Questions to Ponder
+
+- How does the reality of the Resurrection change the way I view death, grief, and mortal limitations?
+- What does it mean to me that the Savior invites individuals to come “one by one” to know Him?
+- How can I better testify of the risen Christ by the way I live and what I love?
+- When have I felt the Savior’s outstretched hand in my life?
+- How can the promise of perfected resurrection bring peace to those facing disability, illness, or loss?
