@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 from openai import APIConnectionError, APITimeoutError, AsyncOpenAI, InternalServerError, RateLimitError
 from pydantic import BaseModel, Field
 
-# Pricing as of 2025-10-10 (see https://platform.openai.com/docs/pricing?latest-pricing=standard)
+# Pricing as of 2026-05-05 (see https://platform.openai.com/docs/pricing?latest-pricing=standard)
 #
 # gpt-3.5-turbo (4K tokens): costs $0.0035 per 1K tokens (in: $0.0015, out: $0.002)
 # gpt-3.5-turbo-16k (16K tokens): costs $0.007 per 1K tokens (in: $0.003, out: $0.004)
@@ -24,6 +24,8 @@ from pydantic import BaseModel, Field
 # gpt-4-32k (32K tokens), costs $0.18 per 1K tokens (in: $0.06, out: $0.12)
 # gpt-5 (32K tokens), costs $11.25 per 1M tokens (in: $1.25, out: $10.00))
 # gpt-5.4 (272K tokens), costs $17.50 per 1M tokens (in: $2.50, out: $15.00)
+# gpt-5.5 (272K tokens), costs $35.00 per 1M tokens (in: $5.00, out: $30.00)
+# gpt-5.5-pro (272K tokens), costs $210.00 per 1M tokens (in: $30.00, out: $180.00)
 
 logger = logging.getLogger(__name__)
 
@@ -132,9 +134,9 @@ class ResponseRequestSettings:
 
 @dataclass(frozen=True)
 class PipelineConfig:
-    outline_model: str = "gpt-5.4"
-    themes_model: str = "gpt-5"
-    key_principles_model: str = "gpt-5"
+    outline_model: str = "gpt-5.5"
+    themes_model: str = "gpt-5.5"
+    key_principles_model: str = "gpt-5.5"
     outline_request: ResponseRequestSettings = field(
         default_factory=lambda: ResponseRequestSettings(
             max_output_tokens=900,

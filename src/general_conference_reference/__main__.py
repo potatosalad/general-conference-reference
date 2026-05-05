@@ -22,8 +22,8 @@ from .gcon import (
 
 @click.command()
 @click.argument("output_path", type=click.Path(path_type=Path))
-@click.option("--year", type=str, default="2025")
-@click.option("--month", type=str, default="10")
+@click.option("--year", type=str, default="2026")
+@click.option("--month", type=str, default="04")
 @click.option("--language", type=str, default="eng")
 @click.option(
     "--until-step",
@@ -33,9 +33,9 @@ from .gcon import (
 )
 @click.option("--concurrency", type=click.IntRange(1, None), default=4, show_default=True)
 @click.option("--force/--no-force", default=False, show_default=True)
-@click.option("--outline-model", type=str, default="gpt-5.4", show_default=True)
-@click.option("--themes-model", type=str, default="gpt-5", show_default=True)
-@click.option("--key-principles-model", type=str, default="gpt-5", show_default=True)
+@click.option("--outline-model", type=str, default="gpt-5.5", show_default=True)
+@click.option("--themes-model", type=str, default="gpt-5.5", show_default=True)
+@click.option("--key-principles-model", type=str, default="gpt-5.5", show_default=True)
 @click.option(
     "--log-level",
     type=click.Choice(["DEBUG", "INFO", "WARNING", "ERROR"], case_sensitive=False),
