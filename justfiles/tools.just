@@ -1,5 +1,5 @@
 [linux]
-[working-directory: '/project/codegen']
+[working-directory: '/project']
 execute: uv-sync format
     uv run general_conference_reference /project
 
