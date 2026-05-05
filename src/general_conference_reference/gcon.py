@@ -389,7 +389,7 @@ def build_structured_response_request(
     if request_settings.reasoning_effort is not None:
         request["reasoning"] = {"effort": request_settings.reasoning_effort}
     if request_settings.verbosity is not None:
-        request["verbosity"] = request_settings.verbosity
+        request["text"] = {"verbosity": request_settings.verbosity}
     return request
 
 

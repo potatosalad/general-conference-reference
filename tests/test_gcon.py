@@ -158,7 +158,7 @@ def test_build_structured_response_request_includes_explicit_limits() -> None:
         "text_format": OutlineResponse,
         "max_output_tokens": 1234,
         "reasoning": {"effort": "low"},
-        "verbosity": "medium",
+        "text": {"verbosity": "medium"},
     }
 
 
