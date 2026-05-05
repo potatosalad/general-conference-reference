@@ -2,9 +2,9 @@
 
 Fetches latest General Conference talks, converts them to markdown, and uses OpenAI to produce a summarized reference document as a study guide for the conference.
 
-General Conference AI Reference: https://tinyurl.com/gc-ai-ref
-
-![](./gc-ai-ref.svg)
+| Reference | QR Code |
+|-|-|
+| [General Conference AI Reference - tinyurl.com/gc-ai-ref](https://tinyurl.com/gc-ai-ref) | [![General Conference AI Reference](./gc-ai-ref.svg)](https://tinyurl.com/gc-ai-ref) |
 
 ## Reports
 
